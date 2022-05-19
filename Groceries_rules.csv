@@ -1,0 +1,326 @@
+rules,support,confidence,coverage,lift,count,
+1,{citrus.fruit=cling film/bags} => {ready.soups=},0.002026806,0.96875,0.002092187,1.803216654,31
+2,{semi.finished.bread=liquor} => {ready.soups=},0.002222949,0.871794872,0.002549853,1.62274584,34
+3,{semi.finished.bread=seasonal products} => {ready.soups=},0.002222949,0.871794872,0.002549853,1.62274584,34
+4,{citrus.fruit=flower (seeds)} => {semi.finished.bread=},0.002222949,0.85,0.002615234,3.730487805,34
+5,{citrus.fruit=flower (seeds)} => {margarine=},0.002615234,1,0.002615234,2.501226492,40
+6,{citrus.fruit=flower (seeds)} => {ready.soups=},0.002615234,1,0.002615234,1.861384934,40
+7,{citrus.fruit=pot plants} => {semi.finished.bread=},0.002222949,0.829268293,0.002680615,3.639500297,34
+8,{citrus.fruit=pot plants} => {margarine=},0.002680615,1,0.002680615,2.501226492,41
+9,{citrus.fruit=pot plants} => {ready.soups=},0.002680615,1,0.002680615,1.861384934,41
+10,{semi.finished.bread=cake bar} => {ready.soups=},0.002026806,0.756097561,0.002680615,1.407388608,31
+11,{citrus.fruit=photo/film} => {semi.finished.bread=},0.002484472,0.904761905,0.002745995,3.970827355,38
+12,{citrus.fruit=photo/film} => {margarine=},0.002745995,1,0.002745995,2.501226492,42
+13,{citrus.fruit=photo/film} => {ready.soups=},0.002745995,1,0.002745995,1.861384934,42
+14,{margarine=pot plants} => {ready.soups=},0.002615234,0.909090909,0.002876757,1.692168122,40
+15,{semi.finished.bread=red/blush wine} => {ready.soups=},0.00235371,0.8,0.002942138,1.489107947,36
+16,{citrus.fruit=red/blush wine} => {ready.soups=},0.002484472,0.826086957,0.003007519,1.537665815,38
+17,{citrus.fruit=dishes} => {semi.finished.bread=},0.002680615,0.854166667,0.00313828,3.74877451,41
+18,{citrus.fruit=dishes} => {margarine=},0.0030729,0.979166667,0.00313828,2.449117607,47
+19,{citrus.fruit=dishes} => {ready.soups=},0.00313828,1,0.00313828,1.861384934,48
+20,{citrus.fruit=chewing gum} => {margarine=},0.002745995,0.857142857,0.003203661,2.143908422,42
+21,{citrus.fruit=chewing gum} => {ready.soups=},0.003007519,0.93877551,0.003203661,1.747422591,46
+22,{semi.finished.bread=dishes} => {ready.soups=},0.003269042,1,0.003269042,1.861384934,50
+23,{citrus.fruit=white wine} => {margarine=},0.002484472,0.76,0.003269042,1.900932134,38
+24,{citrus.fruit=white wine} => {ready.soups=},0.003007519,0.92,0.003269042,1.712474139,46
+25,{semi.finished.bread=pot plants} => {margarine=},0.003007519,0.884615385,0.003399804,2.212623435,46
+26,{semi.finished.bread=pot plants} => {ready.soups=},0.003399804,1,0.003399804,1.861384934,52
+27,{citrus.fruit=detergent} => {ready.soups=},0.003269042,0.909090909,0.003595946,1.692168122,50
+28,{semi.finished.bread=white wine} => {ready.soups=},0.0030729,0.839285714,0.003661327,1.562233784,47
+29,{citrus.fruit=specialty bar} => {margarine=},0.003465185,0.828125,0.004184374,2.071328189,53
+30,{citrus.fruit=specialty bar} => {ready.soups=},0.003988231,0.953125,0.004184374,1.774132515,61
+31,{citrus.fruit=candy} => {margarine=},0.003792089,0.892307692,0.004249755,2.231863639,58
+32,{citrus.fruit=candy} => {ready.soups=},0.004184374,0.984615385,0.004249755,1.832748242,64
+33,{semi.finished.bread=candy} => {ready.soups=},0.004576659,0.909090909,0.005034325,1.692168122,70
+34,{semi.finished.bread=hygiene articles} => {ready.soups=},0.004445897,0.871794872,0.005099706,1.62274584,68
+35,{citrus.fruit=specialty chocolate} => {margarine=},0.004053612,0.775,0.005230467,1.938450531,62
+36,{citrus.fruit=specialty chocolate} => {ready.soups=},0.004315136,0.825,0.005230467,1.53564257,66
+37,{citrus.fruit=misc. beverages} => {ready.soups=},0.004772802,0.901234568,0.005295848,1.677544446,73
+38,{citrus.fruit=long life bakery product} => {margarine=},0.004184374,0.761904762,0.005491991,1.905696375,64
+39,{citrus.fruit=long life bakery product} => {ready.soups=},0.004968944,0.904761905,0.005491991,1.684110178,76
+40,{semi.finished.bread=specialty bar} => {ready.soups=},0.005099706,0.876404494,0.005818895,1.631326122,78
+41,{citrus.fruit=hygiene articles} => {margarine=},0.005230467,0.888888889,0.005884276,2.223312438,80
+42,{citrus.fruit=hygiene articles} => {ready.soups=},0.005884276,1,0.005884276,1.861384934,90
+43,{semi.finished.bread=specialty chocolate} => {ready.soups=},0.005230467,0.842105263,0.00621118,1.567482049,80
+44,{semi.finished.bread=sausage} => {citrus.fruit=frankfurter},0.006472703,1,0.006472703,26.37068966,99
+45,{citrus.fruit=waffles} => {ready.soups=},0.006145799,0.895238095,0.006864989,1.666382703,94
+46,{citrus.fruit=salty snack} => {ready.soups=},0.006341942,0.850877193,0.007453416,1.583809987,97
+47,{semi.finished.bread=napkins} => {ready.soups=},0.007388035,0.957627119,0.00771494,1.782512691,113
+48,{citrus.fruit=chocolate} => {margarine=},0.007191893,0.820895522,0.008761033,2.053245628,110
+49,{citrus.fruit=chocolate} => {ready.soups=},0.008237986,0.940298507,0.008761033,1.750257475,126
+50,{citrus.fruit=napkins} => {margarine=},0.008172605,0.925925926,0.008826414,2.315950456,125
+51,{citrus.fruit=napkins} => {ready.soups=},0.008695652,0.985185185,0.008826414,1.833808861,133
+52,{semi.finished.bread=canned beer} => {ready.soups=},0.009349461,0.826589595,0.011310886,1.538601419,143
+53,{citrus.fruit=coffee} => {ready.soups=},0.009022556,0.779661017,0.011572409,1.45124927,138
+54,{citrus.fruit=fruit/vegetable juice} => {ready.soups=},0.009676365,0.813186813,0.011899314,1.513653682,148
+55,{semi.finished.bread=newspapers} => {margarine=},0.011572409,0.889447236,0.013010788,2.224708991,177
+56,{semi.finished.bread=newspapers} => {ready.soups=},0.012945407,0.994974874,0.013010788,1.852031241,198
+57,{semi.finished.bread=bottled beer} => {ready.soups=},0.010264792,0.773399015,0.013272311,1.439593274,157
+58,{citrus.fruit=newspapers} => {semi.finished.bread=},0.012030075,0.893203883,0.013468454,3.920101405,184
+59,{citrus.fruit=newspapers} => {margarine=},0.013468454,1,0.013468454,2.501226492,206
+60,{citrus.fruit=newspapers} => {ready.soups=},0.013468454,1,0.013468454,1.861384934,206
+61,{margarine=newspapers} => {ready.soups=},0.012030075,0.872037915,0.013795358,1.623198236,184
+62,{semi.finished.bread=shopping bags} => {margarine=},0.014972213,1,0.014972213,2.501226492,229
+63,{semi.finished.bread=shopping bags} => {ready.soups=},0.014972213,1,0.014972213,1.861384934,229
+64,{margarine=shopping bags} => {ready.soups=},0.016410592,1,0.016410592,1.861384934,251
+65,{citrus.fruit=shopping bags} => {semi.finished.bread=},0.017652828,1,0.017652828,4.388809182,270
+66,{citrus.fruit=shopping bags} => {margarine=},0.017652828,1,0.017652828,2.501226492,270
+67,{citrus.fruit=shopping bags} => {ready.soups=},0.017652828,1,0.017652828,1.861384934,270
+68,{citrus.fruit=bottled beer} => {margarine=},0.015952926,0.821548822,0.01941811,2.054879677,244
+69,{citrus.fruit=bottled beer} => {ready.soups=},0.018241255,0.939393939,0.01941811,1.748573726,279
+70,{citrus.fruit=bottled water} => {ready.soups=},0.018437398,0.776859504,0.023733246,1.446034577,282
+71,{citrus.fruit=canned beer} => {margarine=},0.022621772,0.891752577,0.025367767,2.230475171,346
+72,{citrus.fruit=canned beer} => {ready.soups=},0.024517816,0.966494845,0.025367767,1.799018944,375
+73,{citrus.fruit=soda} => {ready.soups=},0.030598235,0.850909091,0.035959464,1.583869362,468
+74,{semi.finished.bread=} => {margarine=},0.227852239,1,0.227852239,2.501226492,3485
+75,{semi.finished.bread=} => {ready.soups=},0.227852239,1,0.227852239,1.861384934,3485
+76,{margarine=} => {ready.soups=},0.399803857,1,0.399803857,1.861384934,6115
+77,"{citrus.fruit=flower (seeds),semi.finished.bread=} => {margarine=}",0.002222949,1,0.002222949,2.501226492,34
+78,"{citrus.fruit=flower (seeds),margarine=} => {semi.finished.bread=}",0.002222949,0.85,0.002615234,3.730487805,34
+79,"{citrus.fruit=flower (seeds),semi.finished.bread=} => {ready.soups=}",0.002222949,1,0.002222949,1.861384934,34
+80,"{citrus.fruit=flower (seeds),ready.soups=} => {semi.finished.bread=}",0.002222949,0.85,0.002615234,3.730487805,34
+81,"{citrus.fruit=flower (seeds),margarine=} => {ready.soups=}",0.002615234,1,0.002615234,1.861384934,40
+82,"{citrus.fruit=flower (seeds),ready.soups=} => {margarine=}",0.002615234,1,0.002615234,2.501226492,40
+83,"{citrus.fruit=pot plants,semi.finished.bread=} => {margarine=}",0.002222949,1,0.002222949,2.501226492,34
+84,"{citrus.fruit=pot plants,margarine=} => {semi.finished.bread=}",0.002222949,0.829268293,0.002680615,3.639500297,34
+85,"{citrus.fruit=pot plants,semi.finished.bread=} => {ready.soups=}",0.002222949,1,0.002222949,1.861384934,34
+86,"{citrus.fruit=pot plants,ready.soups=} => {semi.finished.bread=}",0.002222949,0.829268293,0.002680615,3.639500297,34
+87,"{citrus.fruit=pot plants,margarine=} => {ready.soups=}",0.002680615,1,0.002680615,1.861384934,41
+88,"{citrus.fruit=pot plants,ready.soups=} => {margarine=}",0.002680615,1,0.002680615,2.501226492,41
+89,"{citrus.fruit=photo/film,semi.finished.bread=} => {margarine=}",0.002484472,1,0.002484472,2.501226492,38
+90,"{citrus.fruit=photo/film,margarine=} => {semi.finished.bread=}",0.002484472,0.904761905,0.002745995,3.970827355,38
+91,"{citrus.fruit=photo/film,semi.finished.bread=} => {ready.soups=}",0.002484472,1,0.002484472,1.861384934,38
+92,"{citrus.fruit=photo/film,ready.soups=} => {semi.finished.bread=}",0.002484472,0.904761905,0.002745995,3.970827355,38
+93,"{citrus.fruit=photo/film,margarine=} => {ready.soups=}",0.002745995,1,0.002745995,1.861384934,42
+94,"{citrus.fruit=photo/film,ready.soups=} => {margarine=}",0.002745995,1,0.002745995,2.501226492,42
+95,"{citrus.fruit=red/blush wine,margarine=} => {ready.soups=}",0.002157568,1,0.002157568,1.861384934,33
+96,"{citrus.fruit=red/blush wine,ready.soups=} => {margarine=}",0.002157568,0.868421053,0.002484472,2.172117743,33
+97,"{citrus.fruit=dishes,semi.finished.bread=} => {margarine=}",0.002680615,1,0.002680615,2.501226492,41
+98,"{citrus.fruit=dishes,margarine=} => {semi.finished.bread=}",0.002680615,0.872340426,0.0030729,3.82853567,41
+99,"{citrus.fruit=dishes,semi.finished.bread=} => {ready.soups=}",0.002680615,1,0.002680615,1.861384934,41
+100,"{citrus.fruit=dishes,ready.soups=} => {semi.finished.bread=}",0.002680615,0.854166667,0.00313828,3.74877451,41
+101,"{citrus.fruit=dishes,margarine=} => {ready.soups=}",0.0030729,1,0.0030729,1.861384934,47
+102,"{citrus.fruit=dishes,ready.soups=} => {margarine=}",0.0030729,0.979166667,0.00313828,2.449117607,47
+103,"{citrus.fruit=chewing gum,margarine=} => {ready.soups=}",0.002745995,1,0.002745995,1.861384934,42
+104,"{citrus.fruit=chewing gum,ready.soups=} => {margarine=}",0.002745995,0.913043478,0.003007519,2.283728536,42
+105,"{semi.finished.bread=dishes,margarine=} => {ready.soups=}",0.00228833,1,0.00228833,1.861384934,35
+106,"{citrus.fruit=white wine,margarine=} => {ready.soups=}",0.002484472,1,0.002484472,1.861384934,38
+107,"{citrus.fruit=white wine,ready.soups=} => {margarine=}",0.002484472,0.826086957,0.003007519,2.066230581,38
+108,"{semi.finished.bread=pot plants,margarine=} => {ready.soups=}",0.003007519,1,0.003007519,1.861384934,46
+109,"{semi.finished.bread=pot plants,ready.soups=} => {margarine=}",0.003007519,0.884615385,0.003399804,2.212623435,46
+110,"{citrus.fruit=detergent,margarine=} => {ready.soups=}",0.002680615,1,0.002680615,1.861384934,41
+111,"{citrus.fruit=detergent,ready.soups=} => {margarine=}",0.002680615,0.82,0.003269042,2.051005724,41
+112,"{citrus.fruit=specialty bar,semi.finished.bread=} => {margarine=}",0.002745995,1,0.002745995,2.501226492,42
+113,"{citrus.fruit=specialty bar,margarine=} => {semi.finished.bread=}",0.002745995,0.79245283,0.003465185,3.477924258,42
+114,"{citrus.fruit=specialty bar,semi.finished.bread=} => {ready.soups=}",0.002745995,1,0.002745995,1.861384934,42
+115,"{citrus.fruit=specialty bar,margarine=} => {ready.soups=}",0.003465185,1,0.003465185,1.861384934,53
+116,"{citrus.fruit=specialty bar,ready.soups=} => {margarine=}",0.003465185,0.868852459,0.003988231,2.173196788,53
+117,"{citrus.fruit=candy,semi.finished.bread=} => {margarine=}",0.002811376,1,0.002811376,2.501226492,43
+118,"{citrus.fruit=candy,semi.finished.bread=} => {ready.soups=}",0.002811376,1,0.002811376,1.861384934,43
+119,"{citrus.fruit=candy,margarine=} => {ready.soups=}",0.003792089,1,0.003792089,1.861384934,58
+120,"{citrus.fruit=candy,ready.soups=} => {margarine=}",0.003792089,0.90625,0.004184374,2.266736509,58
+121,"{semi.finished.bread=candy,margarine=} => {ready.soups=}",0.003334423,1,0.003334423,1.861384934,51
+122,"{semi.finished.bread=hygiene articles,margarine=} => {ready.soups=}",0.00228833,1,0.00228833,1.861384934,35
+123,"{citrus.fruit=oil,margarine=} => {ready.soups=}",0.002092187,1,0.002092187,1.861384934,32
+124,"{citrus.fruit=specialty chocolate,semi.finished.bread=} => {margarine=}",0.002811376,1,0.002811376,2.501226492,43
+125,"{citrus.fruit=specialty chocolate,semi.finished.bread=} => {ready.soups=}",0.002811376,1,0.002811376,1.861384934,43
+126,"{citrus.fruit=specialty chocolate,margarine=} => {ready.soups=}",0.004053612,1,0.004053612,1.861384934,62
+127,"{citrus.fruit=specialty chocolate,ready.soups=} => {margarine=}",0.004053612,0.939393939,0.004315136,2.349637008,62
+128,"{citrus.fruit=misc. beverages,semi.finished.bread=} => {margarine=}",0.002484472,1,0.002484472,2.501226492,38
+129,"{citrus.fruit=misc. beverages,semi.finished.bread=} => {ready.soups=}",0.002484472,1,0.002484472,1.861384934,38
+130,"{citrus.fruit=misc. beverages,margarine=} => {ready.soups=}",0.003726708,1,0.003726708,1.861384934,57
+131,"{citrus.fruit=misc. beverages,ready.soups=} => {margarine=}",0.003726708,0.780821918,0.004772802,1.953012467,57
+132,"{citrus.fruit=sugar,margarine=} => {ready.soups=}",0.002680615,1,0.002680615,1.861384934,41
+133,"{citrus.fruit=long life bakery product,semi.finished.bread=} => {margarine=}",0.00235371,1,0.00235371,2.501226492,36
+134,"{citrus.fruit=long life bakery product,semi.finished.bread=} => {ready.soups=}",0.00235371,1,0.00235371,1.861384934,36
+135,"{citrus.fruit=long life bakery product,margarine=} => {ready.soups=}",0.004184374,1,0.004184374,1.861384934,64
+136,"{citrus.fruit=long life bakery product,ready.soups=} => {margarine=}",0.004184374,0.842105263,0.004968944,2.106295993,64
+137,"{citrus.fruit=frozen meals,margarine=} => {ready.soups=}",0.00228833,1,0.00228833,1.861384934,35
+138,"{semi.finished.bread=specialty bar,margarine=} => {ready.soups=}",0.003792089,1,0.003792089,1.861384934,58
+139,"{citrus.fruit=hygiene articles,semi.finished.bread=} => {margarine=}",0.003269042,1,0.003269042,2.501226492,50
+140,"{citrus.fruit=hygiene articles,semi.finished.bread=} => {ready.soups=}",0.003269042,1,0.003269042,1.861384934,50
+141,"{citrus.fruit=hygiene articles,margarine=} => {ready.soups=}",0.005230467,1,0.005230467,1.861384934,80
+142,"{citrus.fruit=hygiene articles,ready.soups=} => {margarine=}",0.005230467,0.888888889,0.005884276,2.223312438,80
+143,"{semi.finished.bread=misc. beverages,margarine=} => {ready.soups=}",0.002092187,1,0.002092187,1.861384934,32
+144,"{semi.finished.bread=salty snack,margarine=} => {ready.soups=}",0.002026806,1,0.002026806,1.861384934,31
+145,"{semi.finished.bread=specialty chocolate,margarine=} => {ready.soups=}",0.003465185,1,0.003465185,1.861384934,53
+146,"{citrus.fruit=UHT-milk,margarine=} => {ready.soups=}",0.002157568,1,0.002157568,1.861384934,33
+147,"{citrus.fruit=waffles,semi.finished.bread=} => {margarine=}",0.002942138,1,0.002942138,2.501226492,45
+148,"{citrus.fruit=waffles,semi.finished.bread=} => {ready.soups=}",0.002942138,1,0.002942138,1.861384934,45
+149,"{citrus.fruit=waffles,margarine=} => {ready.soups=}",0.004968944,1,0.004968944,1.861384934,76
+150,"{citrus.fruit=waffles,ready.soups=} => {margarine=}",0.004968944,0.808510638,0.006145799,2.022268228,76
+151,"{citrus.fruit=beverages,margarine=} => {ready.soups=}",0.003530566,1,0.003530566,1.861384934,54
+152,"{citrus.fruit=beverages,ready.soups=} => {margarine=}",0.003530566,0.771428571,0.004576659,1.92951758,54
+153,"{semi.finished.bread=other vegetables,ready.soups=butter} => {margarine=whole milk}",0.002157568,0.970588235,0.002222949,26.65196958,33
+154,"{semi.finished.bread=long life bakery product,margarine=} => {ready.soups=}",0.002615234,1,0.002615234,1.861384934,40
+155,"{citrus.fruit=ice cream,semi.finished.bread=} => {margarine=}",0.002222949,1,0.002222949,2.501226492,34
+156,"{citrus.fruit=ice cream,semi.finished.bread=} => {ready.soups=}",0.002222949,1,0.002222949,1.861384934,34
+157,"{citrus.fruit=ice cream,margarine=} => {ready.soups=}",0.003726708,1,0.003726708,1.861384934,57
+158,"{citrus.fruit=ice cream,ready.soups=} => {margarine=}",0.003726708,0.76,0.004903563,1.900932134,57
+159,"{citrus.fruit=salty snack,semi.finished.bread=} => {margarine=}",0.003269042,1,0.003269042,2.501226492,50
+160,"{citrus.fruit=salty snack,semi.finished.bread=} => {ready.soups=}",0.003269042,1,0.003269042,1.861384934,50
+161,"{citrus.fruit=salty snack,margarine=} => {ready.soups=}",0.005557372,1,0.005557372,1.861384934,85
+162,"{citrus.fruit=salty snack,ready.soups=} => {margarine=}",0.005557372,0.87628866,0.006341942,2.191796411,85
+163,"{semi.finished.bread=napkins,margarine=} => {ready.soups=}",0.005099706,1,0.005099706,1.861384934,78
+164,"{citrus.fruit=frozen vegetables,margarine=} => {ready.soups=}",0.002615234,1,0.002615234,1.861384934,40
+165,"{semi.finished.bread=chocolate,margarine=} => {ready.soups=}",0.003399804,1,0.003399804,1.861384934,52
+166,"{citrus.fruit=chocolate,semi.finished.bread=} => {margarine=}",0.004053612,1,0.004053612,2.501226492,62
+167,"{citrus.fruit=chocolate,semi.finished.bread=} => {ready.soups=}",0.004053612,1,0.004053612,1.861384934,62
+168,"{citrus.fruit=chocolate,margarine=} => {ready.soups=}",0.007191893,1,0.007191893,1.861384934,110
+169,"{citrus.fruit=chocolate,ready.soups=} => {margarine=}",0.007191893,0.873015873,0.008237986,2.18361043,110
+170,"{citrus.fruit=napkins,semi.finished.bread=} => {margarine=}",0.005230467,1,0.005230467,2.501226492,80
+171,"{citrus.fruit=napkins,semi.finished.bread=} => {ready.soups=}",0.005230467,1,0.005230467,1.861384934,80
+172,"{citrus.fruit=napkins,margarine=} => {ready.soups=}",0.008172605,1,0.008172605,1.861384934,125
+173,"{citrus.fruit=napkins,ready.soups=} => {margarine=}",0.008172605,0.939849624,0.008695652,2.350776778,125
+174,"{semi.finished.bread=coffee,margarine=} => {ready.soups=}",0.0030729,1,0.0030729,1.861384934,47
+175,"{citrus.fruit=citrus fruit,margarine=pip fruit} => {semi.finished.bread=tropical fruit}",0.002026806,1,0.002026806,42.60445682,31
+176,"{citrus.fruit=margarine,margarine=} => {ready.soups=}",0.003922851,1,0.003922851,1.861384934,60
+177,"{citrus.fruit=curd,margarine=} => {ready.soups=}",0.002157568,1,0.002157568,1.861384934,33
+178,"{citrus.fruit=brown bread,margarine=} => {ready.soups=}",0.003922851,1,0.003922851,1.861384934,60
+179,"{citrus.fruit=soda,semi.finished.bread=canned beer} => {ready.soups=}",0.002157568,0.868421053,0.002484472,1.616465863,33
+180,"{semi.finished.bread=canned beer,margarine=} => {ready.soups=}",0.005949657,1,0.005949657,1.861384934,91
+181,"{citrus.fruit=coffee,semi.finished.bread=} => {margarine=}",0.00385747,1,0.00385747,2.501226492,59
+182,"{citrus.fruit=coffee,semi.finished.bread=} => {ready.soups=}",0.00385747,1,0.00385747,1.861384934,59
+183,"{citrus.fruit=coffee,margarine=} => {ready.soups=}",0.006930369,1,0.006930369,1.861384934,106
+184,"{citrus.fruit=coffee,ready.soups=} => {margarine=}",0.006930369,0.768115942,0.009022556,1.921231943,106
+185,"{citrus.fruit=domestic eggs,margarine=} => {ready.soups=}",0.002811376,1,0.002811376,1.861384934,43
+186,"{citrus.fruit=fruit/vegetable juice,semi.finished.bread=} => {margarine=}",0.0030729,1,0.0030729,2.501226492,47
+187,"{citrus.fruit=fruit/vegetable juice,semi.finished.bread=} => {ready.soups=}",0.0030729,1,0.0030729,1.861384934,47
+188,"{citrus.fruit=fruit/vegetable juice,margarine=} => {ready.soups=}",0.007126512,1,0.007126512,1.861384934,109
+189,"{citrus.fruit=whipped/sour cream,margarine=} => {ready.soups=}",0.003726708,1,0.003726708,1.861384934,57
+190,"{semi.finished.bread=fruit/vegetable juice,margarine=} => {ready.soups=}",0.004380517,1,0.004380517,1.861384934,67
+191,"{semi.finished.bread=brown bread,margarine=} => {ready.soups=}",0.003007519,1,0.003007519,1.861384934,46
+192,"{semi.finished.bread=newspapers,margarine=} => {ready.soups=}",0.011572409,1,0.011572409,1.861384934,177
+193,"{semi.finished.bread=newspapers,ready.soups=} => {margarine=}",0.011572409,0.893939394,0.012945407,2.235944895,177
+194,"{semi.finished.bread=bottled beer,margarine=} => {ready.soups=}",0.006145799,1,0.006145799,1.861384934,94
+195,"{citrus.fruit=newspapers,semi.finished.bread=} => {margarine=}",0.012030075,1,0.012030075,2.501226492,184
+196,"{citrus.fruit=newspapers,margarine=} => {semi.finished.bread=}",0.012030075,0.893203883,0.013468454,3.920101405,184
+197,"{citrus.fruit=newspapers,semi.finished.bread=} => {ready.soups=}",0.012030075,1,0.012030075,1.861384934,184
+198,"{citrus.fruit=newspapers,ready.soups=} => {semi.finished.bread=}",0.012030075,0.893203883,0.013468454,3.920101405,184
+199,"{citrus.fruit=newspapers,margarine=} => {ready.soups=}",0.013468454,1,0.013468454,1.861384934,206
+200,"{citrus.fruit=newspapers,ready.soups=} => {margarine=}",0.013468454,1,0.013468454,2.501226492,206
+201,"{semi.finished.bread=shopping bags,margarine=} => {ready.soups=}",0.014972213,1,0.014972213,1.861384934,229
+202,"{semi.finished.bread=shopping bags,ready.soups=} => {margarine=}",0.014972213,1,0.014972213,2.501226492,229
+203,"{semi.finished.bread=pastry,margarine=} => {ready.soups=}",0.003595946,1,0.003595946,1.861384934,55
+204,"{citrus.fruit=pastry,semi.finished.bread=soda} => {ready.soups=}",0.00235371,0.8,0.002942138,1.489107947,36
+205,"{citrus.fruit=pastry,semi.finished.bread=} => {margarine=}",0.003334423,1,0.003334423,2.501226492,51
+206,"{citrus.fruit=pastry,semi.finished.bread=} => {ready.soups=}",0.003334423,1,0.003334423,1.861384934,51
+207,"{citrus.fruit=pastry,margarine=} => {ready.soups=}",0.008237986,1,0.008237986,1.861384934,126
+208,"{citrus.fruit=shopping bags,semi.finished.bread=} => {margarine=}",0.017652828,1,0.017652828,2.501226492,270
+209,"{citrus.fruit=shopping bags,margarine=} => {semi.finished.bread=}",0.017652828,1,0.017652828,4.388809182,270
+210,"{citrus.fruit=shopping bags,semi.finished.bread=} => {ready.soups=}",0.017652828,1,0.017652828,1.861384934,270
+211,"{citrus.fruit=shopping bags,ready.soups=} => {semi.finished.bread=}",0.017652828,1,0.017652828,4.388809182,270
+212,"{citrus.fruit=shopping bags,margarine=} => {ready.soups=}",0.017652828,1,0.017652828,1.861384934,270
+213,"{citrus.fruit=shopping bags,ready.soups=} => {margarine=}",0.017652828,1,0.017652828,2.501226492,270
+214,"{semi.finished.bread=bottled water,margarine=} => {ready.soups=}",0.003988231,1,0.003988231,1.861384934,61
+215,"{citrus.fruit=pip fruit,margarine=} => {ready.soups=}",0.004511278,1,0.004511278,1.861384934,69
+216,"{citrus.fruit=bottled beer,semi.finished.bread=} => {margarine=}",0.010983982,1,0.010983982,2.501226492,168
+217,"{citrus.fruit=bottled beer,semi.finished.bread=} => {ready.soups=}",0.010983982,1,0.010983982,1.861384934,168
+218,"{citrus.fruit=bottled beer,margarine=} => {ready.soups=}",0.015952926,1,0.015952926,1.861384934,244
+219,"{citrus.fruit=bottled beer,ready.soups=} => {margarine=}",0.015952926,0.874551971,0.018241255,2.18745256,244
+220,"{citrus.fruit=beef,margarine=} => {ready.soups=}",0.00313828,1,0.00313828,1.861384934,48
+221,"{citrus.fruit=chicken,margarine=} => {ready.soups=}",0.002942138,1,0.002942138,1.861384934,45
+222,"{citrus.fruit=root vegetables,margarine=whole milk} => {semi.finished.bread=other vegetables}",0.003203661,0.816666667,0.003922851,20.14663978,49
+223,"{citrus.fruit=root vegetables,margarine=} => {ready.soups=}",0.003530566,1,0.003530566,1.861384934,54
+224,"{semi.finished.bread=root vegetables,ready.soups=whole milk} => {margarine=other vegetables}",0.003988231,0.824324324,0.004838182,28.58966109,61
+225,"{citrus.fruit=bottled water,semi.finished.bread=} => {margarine=}",0.006407323,1,0.006407323,2.501226492,98
+226,"{citrus.fruit=bottled water,semi.finished.bread=} => {ready.soups=}",0.006407323,1,0.006407323,1.861384934,98
+227,"{citrus.fruit=bottled water,margarine=} => {ready.soups=}",0.013860739,1,0.013860739,1.861384934,212
+228,"{citrus.fruit=bottled water,ready.soups=} => {margarine=}",0.013860739,0.75177305,0.018437398,1.880354668,212
+229,"{semi.finished.bread=yogurt,margarine=} => {ready.soups=}",0.002484472,1,0.002484472,1.861384934,38
+230,"{citrus.fruit=pork,margarine=} => {ready.soups=}",0.003726708,1,0.003726708,1.861384934,57
+231,"{citrus.fruit=canned beer,semi.finished.bread=} => {margarine=}",0.018372017,1,0.018372017,2.501226492,281
+232,"{citrus.fruit=canned beer,margarine=} => {semi.finished.bread=}",0.018372017,0.812138728,0.022621772,3.564321908,281
+233,"{citrus.fruit=canned beer,semi.finished.bread=} => {ready.soups=}",0.018372017,1,0.018372017,1.861384934,281
+234,"{citrus.fruit=canned beer,margarine=} => {ready.soups=}",0.022621772,1,0.022621772,1.861384934,346
+235,"{citrus.fruit=canned beer,ready.soups=} => {margarine=}",0.022621772,0.922666667,0.024517816,2.30779831,346
+236,"{citrus.fruit=yogurt,semi.finished.bread=} => {margarine=}",0.003007519,1,0.003007519,2.501226492,46
+237,"{citrus.fruit=yogurt,semi.finished.bread=} => {ready.soups=}",0.003007519,1,0.003007519,1.861384934,46
+238,"{citrus.fruit=yogurt,margarine=} => {ready.soups=}",0.008041844,1,0.008041844,1.861384934,123
+239,"{citrus.fruit=citrus fruit,margarine=} => {ready.soups=}",0.003792089,1,0.003792089,1.861384934,58
+240,"{semi.finished.bread=soda,margarine=} => {ready.soups=}",0.010722458,1,0.010722458,1.861384934,164
+241,"{citrus.fruit=tropical fruit,margarine=} => {ready.soups=}",0.004903563,1,0.004903563,1.861384934,75
+242,"{citrus.fruit=soda,semi.finished.bread=} => {margarine=}",0.014122262,1,0.014122262,2.501226492,216
+243,"{citrus.fruit=soda,semi.finished.bread=} => {ready.soups=}",0.014122262,1,0.014122262,1.861384934,216
+244,"{citrus.fruit=soda,margarine=} => {ready.soups=}",0.024517816,1,0.024517816,1.861384934,375
+245,"{citrus.fruit=soda,ready.soups=} => {margarine=}",0.024517816,0.801282051,0.030598235,2.004187894,375
+246,"{citrus.fruit=rolls/buns,semi.finished.bread=} => {margarine=}",0.008826414,1,0.008826414,2.501226492,135
+247,"{citrus.fruit=rolls/buns,semi.finished.bread=} => {ready.soups=}",0.008826414,1,0.008826414,1.861384934,135
+248,"{citrus.fruit=rolls/buns,margarine=} => {ready.soups=}",0.019221968,1,0.019221968,1.861384934,294
+249,"{semi.finished.bread=rolls/buns,margarine=} => {ready.soups=}",0.007911082,1,0.007911082,1.861384934,121
+250,"{citrus.fruit=frankfurter,margarine=} => {ready.soups=}",0.004184374,1,0.004184374,1.861384934,64
+251,"{citrus.fruit=other vegetables,semi.finished.bread=} => {margarine=}",0.004184374,1,0.004184374,2.501226492,64
+252,"{citrus.fruit=other vegetables,semi.finished.bread=} => {ready.soups=}",0.004184374,1,0.004184374,1.861384934,64
+253,"{citrus.fruit=other vegetables,margarine=} => {ready.soups=}",0.009022556,1,0.009022556,1.861384934,138
+254,"{semi.finished.bread=other vegetables,margarine=} => {ready.soups=}",0.002745995,1,0.002745995,1.861384934,42
+255,"{semi.finished.bread=whole milk,margarine=} => {ready.soups=}",0.0030729,1,0.0030729,1.861384934,47
+256,"{citrus.fruit=sausage,margarine=} => {ready.soups=}",0.005361229,1,0.005361229,1.861384934,82
+257,"{citrus.fruit=whole milk,semi.finished.bread=} => {margarine=}",0.008041844,1,0.008041844,2.501226492,123
+258,"{citrus.fruit=whole milk,semi.finished.bread=} => {ready.soups=}",0.008041844,1,0.008041844,1.861384934,123
+259,"{citrus.fruit=whole milk,margarine=} => {ready.soups=}",0.019156587,1,0.019156587,1.861384934,293
+260,"{semi.finished.bread=,margarine=} => {ready.soups=}",0.227852239,1,0.227852239,1.861384934,3485
+261,"{semi.finished.bread=,ready.soups=} => {margarine=}",0.227852239,1,0.227852239,2.501226492,3485
+262,"{citrus.fruit=flower (seeds),semi.finished.bread=,margarine=} => {ready.soups=}",0.002222949,1,0.002222949,1.861384934,34
+263,"{citrus.fruit=flower (seeds),semi.finished.bread=,ready.soups=} => {margarine=}",0.002222949,1,0.002222949,2.501226492,34
+264,"{citrus.fruit=flower (seeds),margarine=,ready.soups=} => {semi.finished.bread=}",0.002222949,0.85,0.002615234,3.730487805,34
+265,"{citrus.fruit=pot plants,semi.finished.bread=,margarine=} => {ready.soups=}",0.002222949,1,0.002222949,1.861384934,34
+266,"{citrus.fruit=pot plants,semi.finished.bread=,ready.soups=} => {margarine=}",0.002222949,1,0.002222949,2.501226492,34
+267,"{citrus.fruit=pot plants,margarine=,ready.soups=} => {semi.finished.bread=}",0.002222949,0.829268293,0.002680615,3.639500297,34
+268,"{citrus.fruit=photo/film,semi.finished.bread=,margarine=} => {ready.soups=}",0.002484472,1,0.002484472,1.861384934,38
+269,"{citrus.fruit=photo/film,semi.finished.bread=,ready.soups=} => {margarine=}",0.002484472,1,0.002484472,2.501226492,38
+270,"{citrus.fruit=photo/film,margarine=,ready.soups=} => {semi.finished.bread=}",0.002484472,0.904761905,0.002745995,3.970827355,38
+271,"{citrus.fruit=dishes,semi.finished.bread=,margarine=} => {ready.soups=}",0.002680615,1,0.002680615,1.861384934,41
+272,"{citrus.fruit=dishes,semi.finished.bread=,ready.soups=} => {margarine=}",0.002680615,1,0.002680615,2.501226492,41
+273,"{citrus.fruit=dishes,margarine=,ready.soups=} => {semi.finished.bread=}",0.002680615,0.872340426,0.0030729,3.82853567,41
+274,"{citrus.fruit=specialty bar,semi.finished.bread=,margarine=} => {ready.soups=}",0.002745995,1,0.002745995,1.861384934,42
+275,"{citrus.fruit=specialty bar,semi.finished.bread=,ready.soups=} => {margarine=}",0.002745995,1,0.002745995,2.501226492,42
+276,"{citrus.fruit=specialty bar,margarine=,ready.soups=} => {semi.finished.bread=}",0.002745995,0.79245283,0.003465185,3.477924258,42
+277,"{citrus.fruit=candy,semi.finished.bread=,margarine=} => {ready.soups=}",0.002811376,1,0.002811376,1.861384934,43
+278,"{citrus.fruit=candy,semi.finished.bread=,ready.soups=} => {margarine=}",0.002811376,1,0.002811376,2.501226492,43
+279,"{citrus.fruit=specialty chocolate,semi.finished.bread=,margarine=} => {ready.soups=}",0.002811376,1,0.002811376,1.861384934,43
+280,"{citrus.fruit=specialty chocolate,semi.finished.bread=,ready.soups=} => {margarine=}",0.002811376,1,0.002811376,2.501226492,43
+281,"{citrus.fruit=misc. beverages,semi.finished.bread=,margarine=} => {ready.soups=}",0.002484472,1,0.002484472,1.861384934,38
+282,"{citrus.fruit=misc. beverages,semi.finished.bread=,ready.soups=} => {margarine=}",0.002484472,1,0.002484472,2.501226492,38
+283,"{citrus.fruit=long life bakery product,semi.finished.bread=,margarine=} => {ready.soups=}",0.00235371,1,0.00235371,1.861384934,36
+284,"{citrus.fruit=long life bakery product,semi.finished.bread=,ready.soups=} => {margarine=}",0.00235371,1,0.00235371,2.501226492,36
+285,"{citrus.fruit=hygiene articles,semi.finished.bread=,margarine=} => {ready.soups=}",0.003269042,1,0.003269042,1.861384934,50
+286,"{citrus.fruit=hygiene articles,semi.finished.bread=,ready.soups=} => {margarine=}",0.003269042,1,0.003269042,2.501226492,50
+287,"{citrus.fruit=waffles,semi.finished.bread=,margarine=} => {ready.soups=}",0.002942138,1,0.002942138,1.861384934,45
+288,"{citrus.fruit=waffles,semi.finished.bread=,ready.soups=} => {margarine=}",0.002942138,1,0.002942138,2.501226492,45
+289,"{citrus.fruit=ice cream,semi.finished.bread=,margarine=} => {ready.soups=}",0.002222949,1,0.002222949,1.861384934,34
+290,"{citrus.fruit=ice cream,semi.finished.bread=,ready.soups=} => {margarine=}",0.002222949,1,0.002222949,2.501226492,34
+291,"{citrus.fruit=salty snack,semi.finished.bread=,margarine=} => {ready.soups=}",0.003269042,1,0.003269042,1.861384934,50
+292,"{citrus.fruit=salty snack,semi.finished.bread=,ready.soups=} => {margarine=}",0.003269042,1,0.003269042,2.501226492,50
+293,"{citrus.fruit=chocolate,semi.finished.bread=,margarine=} => {ready.soups=}",0.004053612,1,0.004053612,1.861384934,62
+294,"{citrus.fruit=chocolate,semi.finished.bread=,ready.soups=} => {margarine=}",0.004053612,1,0.004053612,2.501226492,62
+295,"{citrus.fruit=napkins,semi.finished.bread=,margarine=} => {ready.soups=}",0.005230467,1,0.005230467,1.861384934,80
+296,"{citrus.fruit=napkins,semi.finished.bread=,ready.soups=} => {margarine=}",0.005230467,1,0.005230467,2.501226492,80
+297,"{citrus.fruit=coffee,semi.finished.bread=,margarine=} => {ready.soups=}",0.00385747,1,0.00385747,1.861384934,59
+298,"{citrus.fruit=coffee,semi.finished.bread=,ready.soups=} => {margarine=}",0.00385747,1,0.00385747,2.501226492,59
+299,"{citrus.fruit=fruit/vegetable juice,semi.finished.bread=,margarine=} => {ready.soups=}",0.0030729,1,0.0030729,1.861384934,47
+300,"{citrus.fruit=fruit/vegetable juice,semi.finished.bread=,ready.soups=} => {margarine=}",0.0030729,1,0.0030729,2.501226492,47
+301,"{citrus.fruit=newspapers,semi.finished.bread=,margarine=} => {ready.soups=}",0.012030075,1,0.012030075,1.861384934,184
+302,"{citrus.fruit=newspapers,semi.finished.bread=,ready.soups=} => {margarine=}",0.012030075,1,0.012030075,2.501226492,184
+303,"{citrus.fruit=newspapers,margarine=,ready.soups=} => {semi.finished.bread=}",0.012030075,0.893203883,0.013468454,3.920101405,184
+304,"{citrus.fruit=pastry,semi.finished.bread=,margarine=} => {ready.soups=}",0.003334423,1,0.003334423,1.861384934,51
+305,"{citrus.fruit=pastry,semi.finished.bread=,ready.soups=} => {margarine=}",0.003334423,1,0.003334423,2.501226492,51
+306,"{citrus.fruit=shopping bags,semi.finished.bread=,margarine=} => {ready.soups=}",0.017652828,1,0.017652828,1.861384934,270
+307,"{citrus.fruit=shopping bags,semi.finished.bread=,ready.soups=} => {margarine=}",0.017652828,1,0.017652828,2.501226492,270
+308,"{citrus.fruit=shopping bags,margarine=,ready.soups=} => {semi.finished.bread=}",0.017652828,1,0.017652828,4.388809182,270
+309,"{citrus.fruit=bottled beer,semi.finished.bread=,margarine=} => {ready.soups=}",0.010983982,1,0.010983982,1.861384934,168
+310,"{citrus.fruit=bottled beer,semi.finished.bread=,ready.soups=} => {margarine=}",0.010983982,1,0.010983982,2.501226492,168
+311,"{citrus.fruit=bottled water,semi.finished.bread=,margarine=} => {ready.soups=}",0.006407323,1,0.006407323,1.861384934,98
+312,"{citrus.fruit=bottled water,semi.finished.bread=,ready.soups=} => {margarine=}",0.006407323,1,0.006407323,2.501226492,98
+313,"{citrus.fruit=canned beer,semi.finished.bread=,margarine=} => {ready.soups=}",0.018372017,1,0.018372017,1.861384934,281
+314,"{citrus.fruit=canned beer,semi.finished.bread=,ready.soups=} => {margarine=}",0.018372017,1,0.018372017,2.501226492,281
+315,"{citrus.fruit=canned beer,margarine=,ready.soups=} => {semi.finished.bread=}",0.018372017,0.812138728,0.022621772,3.564321908,281
+316,"{citrus.fruit=yogurt,semi.finished.bread=,margarine=} => {ready.soups=}",0.003007519,1,0.003007519,1.861384934,46
+317,"{citrus.fruit=yogurt,semi.finished.bread=,ready.soups=} => {margarine=}",0.003007519,1,0.003007519,2.501226492,46
+318,"{citrus.fruit=soda,semi.finished.bread=,margarine=} => {ready.soups=}",0.014122262,1,0.014122262,1.861384934,216
+319,"{citrus.fruit=soda,semi.finished.bread=,ready.soups=} => {margarine=}",0.014122262,1,0.014122262,2.501226492,216
+320,"{citrus.fruit=rolls/buns,semi.finished.bread=,margarine=} => {ready.soups=}",0.008826414,1,0.008826414,1.861384934,135
+321,"{citrus.fruit=rolls/buns,semi.finished.bread=,ready.soups=} => {margarine=}",0.008826414,1,0.008826414,2.501226492,135
+322,"{citrus.fruit=other vegetables,semi.finished.bread=,margarine=} => {ready.soups=}",0.004184374,1,0.004184374,1.861384934,64
+323,"{citrus.fruit=other vegetables,semi.finished.bread=,ready.soups=} => {margarine=}",0.004184374,1,0.004184374,2.501226492,64
+324,"{citrus.fruit=whole milk,semi.finished.bread=,margarine=} => {ready.soups=}",0.008041844,1,0.008041844,1.861384934,123
+325,"{citrus.fruit=whole milk,semi.finished.bread=,ready.soups=} => {margarine=}",0.008041844,1,0.008041844,2.501226492,123
